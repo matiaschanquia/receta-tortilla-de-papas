@@ -1,2 +1,2 @@
 # Receta-Tortilla_de_Papas
-Página de una receta tipica de España: La tortilla de papas
+Trabajo Practico 1... Receta tipica de España: Tortilla de papas
