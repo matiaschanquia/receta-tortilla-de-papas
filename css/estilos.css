@@ -52,7 +52,7 @@ body{
 }
 
 
-#tamaño_tortilla{
+#size_tortilla{
   width: 60%;
   height: auto;
 }
@@ -67,7 +67,7 @@ body{
 }
 
 
-#tamaño_boton{
+#size_boton{
   width: 200px;
   height: auto;
   margin-top: 2%;
@@ -79,7 +79,7 @@ body{
   text-decoration-color: #A04000;
 }
 
-.tamaño_frames{
+.size_frames{
   width: 80%;
   height: 350px;
 }
