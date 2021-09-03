@@ -1,0 +1,109 @@
+
+/* Los selectores estan colocados ordenadamente según aparición en index.html */
+
+
+body{
+  font-family: Georgia, arial, Verdana;
+  background-image: url('./images/background_cocina.jpg');
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.presentacion{
+  color: white;
+  text-align: center;
+  background-color: #A04000;
+  width: 76%;
+  height: auto;
+  margin: 2% auto 0;
+  padding: 2%;
+  border-top: #BA4A00 2.5px solid;
+  border-left: #BA4A00 2.5px solid;
+  border-right: #BA4A00 2.5px solid;
+  border-bottom: #E3D5A6 2.5px solid;
+}
+
+
+.subrayado_titulo{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+
+.titulo_secundario{
+  width: 80%;
+  height: auto;
+  margin: 0 auto 0;
+}
+
+
+.cuerpo{
+  font-size: 115%;
+  color: #A04000;
+  background-color: #779FA1;
+  width: 76%;
+  height: auto;
+  margin: 0 auto 1% auto;
+  padding: 2%;
+  border-bottom: #4B6B6C 2.5px solid;
+  border-left: #4B6B6C 2.5px solid;
+  border-right: #4B6B6C 2.5px solid;
+}
+
+
+#tamaño_tortilla{
+  width: 60%;
+  height: auto;
+}
+
+
+.imagenes{
+  box-shadow: 1px 1px 8px -2px gray;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: #E3D5A6 2px solid;
+  width: 190px;
+}
+
+
+#tamaño_boton{
+  width: 200px;
+  height: auto;
+  margin-top: 2%;
+}
+
+
+.subrayado_subtitulo{
+  text-decoration: underline;
+  text-decoration-color: #A04000;
+}
+
+.tamaño_frames{
+  width: 80%;
+  height: 350px;
+}
+
+.logos{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: ,
+}
+
+
+/*Efecto a etiquetas al pasar el puntero del mouse sobre ellas que encontre en internet*/
+
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
